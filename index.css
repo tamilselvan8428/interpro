@@ -484,3 +484,43 @@ footer {
         min-height: 45px;
     }
 }
+@media (max-width: 380px) {
+    #navigation {
+        justify-content: end;
+    }
+    #Home h1, #Home h2 {
+        font-size: 40px;
+    }
+    #Home img {
+        
+        margin-left: 50%;
+        width: 200px; 
+    }
+    #contact a {
+        font-size: 30px;
+        transform: scale(1.4);
+    }
+    #about{
+        img{
+            width: 40%;
+            float: left;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    footer {
+        font-size: 16px;
+        height: auto;
+    }
+    #skills img, #projects img {
+        margin-top: 10%;
+        width: 180px; /* Minimum width for images */
+        height: auto;
+    }
+    form input, form textarea, form button {
+        width: 80%;
+        font-size: 16px;
+        min-height: 45px;
+    }
+}
